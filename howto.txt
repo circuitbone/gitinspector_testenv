@@ -1,0 +1,16 @@
+How to Setup
+
+• Install the tool from the git repo.
+    https://github.com/ejwa/gitinspector
+    
+• Basic Example command line example
+  
+  <code>/usr/local/bin/gitinspector<code>
+
+• Intermediate
+
+  <code>/usr/local/bin/gitinspector --format=text -f="cs" -r > gitinspector_report.txt</code>
+
+• Advanced
+
+  <code>/usr/local/bin/gitinspector --format=html -f="js,cs,json,yaml,unity,asset,unityproj,meta,csproj,html" -r > gitinspector_report.html</code>
